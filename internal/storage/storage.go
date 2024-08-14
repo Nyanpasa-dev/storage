@@ -3,8 +3,8 @@ package storage
 import (
 	"errors"
 
+	"github.com/Nyanpasa-dev/storage/internal/file"
 	"github.com/google/uuid"
-	"github.com/nyanpasa-dev/storage/internal/file"
 )
 
 type Storage struct {
