@@ -1,4 +1,4 @@
-module github.com/Nyanpasa-dev/storage
+module github.com/nyanpasa-dev/storage
 
 go 1.22.5
 
