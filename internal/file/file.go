@@ -19,11 +19,13 @@ func NewFile(name string, blob []byte) (*File, error) {
 		return nil, err
 	}
 
-	return &File{
+	newFile := &File{
 		ID:   fileID,
 		Name: name,
 		Data: blob,
-	}, nil
+	}
+
+	return newFile, nil
 }
 
 func (f *File) String() string {
